@@ -8,7 +8,7 @@ provider "aws" {
   ami = "ami-0cca134ec43cf708f"
   instance_type = "t2.micro"
   key_name = "GITNEWPAIR"
-  availability_zone = "ap-sougth-1"
+  availability_zone = "ap-south-1"
   tags= {
     Name = "sateesh-tf"
   }
